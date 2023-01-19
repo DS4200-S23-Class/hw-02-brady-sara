@@ -9,3 +9,7 @@ body {
 #header {
 	background-color: lightblue;
 }
+
+.left {
+	text-align: left;
+}

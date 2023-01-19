@@ -13,3 +13,17 @@ body {
 .left {
 	text-align: left;
 }
+
+
+.flex-item {
+	flex: 30%;
+	padding: 5px;
+}
+
+img {
+	width: 100%;
+}
+
+.flex-container {
+	display: flex;
+}

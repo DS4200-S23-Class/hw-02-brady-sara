@@ -38,3 +38,35 @@ img {
 .flex-container {
 	display: flex;
 }
+
+#blue {
+	color: blueviolet;
+}
+
+circle {
+	fill: limegreen;
+	opacity: 50%;
+}
+
+rect {
+	fill: limegreen;
+}
+
+circle:hover {
+	stroke: black;
+	stroke-width: 4;
+}
+
+rect:hover {
+	fill: darkgoldenrod;
+}
+
+/*idk if the stuff below is right or not*/
+
+.space {
+	text-align:center;
+}
+
+svg {
+	margin: 50px;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html> 
 
+<!-- create title and link css file -->
 <head>
     <meta charset=utf-8/>
     <title>hw-02</title>
@@ -8,9 +9,11 @@
 </head>
 
 <body>
+    <!-- div with data abstraction ID -->
     <div id="data-abstraction">
-
+        <!-- div with class info -->
         <div class="info">
+            <!-- centered header -->
             <h1 class="centered">Dataset Types</h1>
 
             <!-- Dataset Table -->
@@ -22,6 +25,7 @@
                 </tr>
                 <tr>
                     <td>Airports</td>
+                    <!-- linked the files containing datasets -->
                     <td><a href="data/Airports.csv">link</a></td>
                     <td>Table</td>
                 </tr>
@@ -38,10 +42,10 @@
             </table>
 
         </div>
-
+        <!-- another div with class info -->
         <div class="info">
             <h1 class="centered">Data Types</h1>
-            <!-- headers and lists -->
+            <!-- headers and lists of datatypes-->
             <h2 class="left">Airports</h2>
                 <ul>
                     <li>Items (rows in table)</li>
@@ -131,23 +135,24 @@
 
     </div>
 
+    <!-- task abstraction div -->
     <div id="task-abstraction">
         <h1 class= "centered">Task Abstraction</h1>
-        <!-- flexbox with images -->
+        <!-- flexbox with images & actions -->
         <div class = "flex-container">
             <div class= "flex-item">
                 <img src="img/vis1.png">
-                <p class="left" id="blue">High</p>
-                <p class="left" id="blue">Medium</p>
-                <p class="left" id="blue">Low</p>
-                <p class="left" id="blue">Target</p>
+                <p class="left" id="blue">High Level Task is consume, present. The vis is showing daily maximum temperatures, but clearly highlighting 3 points that it wants the user to see.</p>
+                <p class="left" id="blue">Medium action is locate. The target is known, highest daily maximum temperature, but the location is not as the user will look at the visualization to find it.</p>
+                <p class="left" id="blue">Low action is identify. The user will be looking specifically for where the highest temperature is.</p>
+                <p class="left" id="blue">Target is all data, outliers. The user will look at the overall temperature data, but want to find specifically where the highest temperature is overall.</p>
             </div>
             <div class= "flex-item">
                 <img src="img/vis2.png">
-                <p class="left" id="blue">High</p>
-                <p class="left" id="blue">Medium</p>
-                <p class="left" id="blue">Low</p>
-                <p class="left" id="blue">Target</p>
+                <p class="left" id="blue">High level action is consume, discover. The visualization presents all the times the daily mean was 20 degrees above normal, so the user is able to look at all that data to gain new insights.</p>
+                <p class="left" id="blue">Medium level task is locate. The target of finding days where the mean was 20 degrees above normal is known, but the location of where these days are is unknown.</p>
+                <p class="left" id="blue">Low level action is compare. The visualization has both Seattle and Portland and the user can compare the number of times both cities met the mean criteria.</p>
+                <p class="left" id="blue">Target is attributes, similarity. The user is going to compare Seattle to Portland, and look at the trend to see if they are similar or different. </p>
             </div>
         </div>
     </div>
@@ -172,8 +177,10 @@
 
     
     <div>
+        <!-- acknowledgements header -->
         <h3 class="centered">Acknowledgements</h1>
         <ul>
+            <!-- list of resources -->
             <li>w3schools.com</li>
             <li>css-tricks.com</li>
             <li>geeksforgeeks.org</li>

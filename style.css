@@ -50,6 +50,8 @@ circle {
 
 rect {
 	fill: limegreen;
+	stroke: black;
+	stroke-width: 4;
 }
 
 circle:hover {
@@ -60,8 +62,6 @@ circle:hover {
 rect:hover {
 	fill: darkgoldenrod;
 }
-
-/*idk if the stuff below is right or not*/
 
 .space {
 	text-align:center;
